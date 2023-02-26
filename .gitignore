@@ -11,9 +11,9 @@
 
 # [Ignore] Merchandising Files
 # ============================
-#   See the README.md on how to include these in your local repo
-src/shopify/config/settings_data.json
-src/shopify/templates/**/*.json
+#   See the README.md on how to ignore these in your local repo
+# src/shopify/config/settings_data.json
+# src/shopify/templates/**/*.json
 
 # Optional additional ignores
 # shopify/config/settings_schema.json
