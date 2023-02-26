@@ -2,8 +2,10 @@
   "name": "vite-vue-tailwind-shopify-theme",
   "version": "1.0.0",
   "description": "POC Shopify Theme with Vite + TailwindCSS + VueJS",
+  "author": "Camila Peludero",
+  "license": "ISC",
   "scripts": {
-    "login": "shopify2 login --store https://cami-testing.myshopify.com/",
+    "login": "shopify2 login --store [STORE_URL]",
     "logout": "shopify2 logout",
     "start": "run-p -sr watch theme",
     "watch": "vite build --mode=development --watch",
@@ -12,8 +14,6 @@
     "deploy": "vite build && cd ./dist && shopify2 theme push --nodelete",
     "deploy:new": "vite build && cd ./dist && shopify2 theme push --unpublished"
   },
-  "author": "Camila Peludero",
-  "license": "ISC",
   "dependencies": {
     "vue": "^3.2.36"
   },
